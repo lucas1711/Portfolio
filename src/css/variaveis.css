@@ -15,6 +15,8 @@
     --font-extra-grande: 3rem;
     --font-grande:2.4rem;
     --font-normal:1.6rem;
+}
 
-
+:root{
+    --mobile-padding: 30px;
 }
