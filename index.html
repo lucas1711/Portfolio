@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,32 +9,59 @@
 
     <script src="https://kit.fontawesome.com/5f05faa081.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="src/css/reset.css">
+    
     <link rel="stylesheet" href="src/css/variaveis.css">
 
     <!-- Global -->
     <link rel="stylesheet" href="src/css/globais.css">
 
+    <link rel="stylesheet" href="src/css/header.css">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
 </head>
+
 <body>
 
-    <header class="header">       
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <a href="#">
+                    <h1 class="logo">LC</h1>
+                </a>
+
+                <nav>
+                    <input id="menu-hamburguer" type="checkbox" />
+
+                    <label for="menu-hamburguer">
+                        <div class="menu">
+                            <span class="hamburguer"></span>
+                        </div>
+                    </label>
+
+                    <ul>
+                        <li><a href="#sobre-mim">Sobre mim</a></li>
+                        <li><a href="#habilidades">habilidades</a></li>
+                        <li><a href="#projetos">Meus projetos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
 
-    <main>
-        <section class="home"></section>
-        
-        <section class="sobre-min"></section>
+    
 
-        <section class="habilidades"></section>
+    <section class="sobre-mim"></section>
 
-        <section class="projetos"></section>
-    </main>
+    <section class="habilidades"></section>
+
+    <section class="projetos"></section>
+
 
 
     <footer class="footer">
     </footer>
-    
+
 </body>
+
 </html>
