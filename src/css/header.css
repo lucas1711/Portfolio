@@ -23,11 +23,6 @@
     transition: 0.2s;
 }
 
-.header .row{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 
 .header nav ul{
