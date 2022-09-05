@@ -1,0 +1,32 @@
+.habilidades .container-habilidades{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.habilidades .container-habilidades .habilidade{
+    max-width: 350px;
+    padding: 40px 20px;
+}
+
+.habilidades .container-habilidades .logo i{
+    font-size: 10rem;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.habilidades .container-habilidades .logo p{
+    font-size: 1.8rem;
+    font-family: var(--fonte-secundaria);
+    margin-top: 1.5rem;
+}
+
+.habilidades .container-habilidades .logo:hover{
+    color: var(--cor-primaria);
+}
+
