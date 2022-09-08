@@ -3,10 +3,10 @@
 }
 
 .header .logo{
-    color: var(--cor-branca);
+    color: var(--cor-primaria);
     font-family: var(--fonte-secundaria);
     font-size: var(--fonte-extra-grande);
-    border: 2px solid var(--cor-branca);
+    border: 2px solid var(--cor-primaria);
     border-radius: 50%;
     width: 65px;
     height: 65px;
@@ -17,11 +17,11 @@
 }
 
 
-.header  a:hover .logo{
+/* .header  a:hover .logo{
     color: var(--cor-primaria);
     border:  2px solid var(--cor-primaria);
     transition: 0.2s;
-}
+} */
 
 
 

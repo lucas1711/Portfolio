@@ -1,0 +1,48 @@
+.projetos .container-projetos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-gap: 40px;
+}
+
+.projetos .container-projetos .projeto {
+    background-color: #212121;
+    padding: 20px 25px;
+    width: 350px;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    position: relative;
+    
+}
+
+.projetos .container-projetos .projeto:hover{
+    transform: scale(1.07);
+}
+
+.projetos .container-projetos .projeto h3{
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 6px;
+}
+
+.projetos .container-projetos .projeto p{
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #828282;
+}
+
+
+
+@media(max-width: 1280px) {
+    .projetos .container-projetos {
+        padding: 0 var(--mobile-padding);
+    }
+
+}
