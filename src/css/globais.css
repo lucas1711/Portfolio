@@ -49,6 +49,20 @@ body {
     color: var(--cor-primaria);
 }
 
+.redes-sociais-2 a {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    font-size: 3rem;
+    text-align: center;
+    color: #00DF5E;
+    line-height: 60px;
+    margin: 0 15px;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+}
+
+
 .outer-shadow{
      box-shadow: 3px 3px #222327, -3px -3px 3px #454545 ; 
 }
@@ -72,23 +86,22 @@ body {
 
 .section-title h2{
     font-size: var(--fonte-extra-grande);
-    font-weight: 500;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
 .botao{
     font-size: var(--fonte-normal);
-    border-radius: 10px;
+    border-radius: 50px;
     transition: all 0.3s ease;
     color: var(--cor-branca);
 }
 
 .botao a{
-    background-color: var(--cor-primaria);
+    color: var(--cor-branca);
     padding: 10px 20px;
+    font-weight: 500;
+    background-color: var(--cor-primaria);
 }
 
-.botao a:hover{
-    background-color: var(--cor-secundaria);
-    color: var(--cor-primaria);
-}
+

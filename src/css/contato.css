@@ -1,0 +1,13 @@
+.contato{
+    text-align: center;
+}
+
+
+@media(max-width:375px){
+    .contato .redes-sociais-2 a{
+        font-size: 2rem;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+}

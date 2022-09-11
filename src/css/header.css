@@ -3,15 +3,15 @@
 }
 
 .header .logo{
-    color: var(--cor-primaria);
+    color:var(--cor-primaria);
     font-family: var(--fonte-secundaria);
     font-size: var(--fonte-extra-grande);
     border: 2px solid var(--cor-primaria);
     border-radius: 50%;
-    width: 65px;
-    height: 65px;
+    width: 70px;
+    height: 70px;
     text-align: center;
-    line-height: 55px;
+    line-height: 60px;
     text-decoration: underline;
     
 }
